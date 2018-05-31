@@ -24,7 +24,7 @@ X = np.vstack([pos_test, neg_test])
 print('Testing...')
 y_score = []
 for u, v in X:
-	y_score.append(w2v.wv.similarity(str(u), str(v)))
+    y_score.append(w2v.wv.similarity(str(u), str(v)))
 
 auc_test = roc_auc_score(y_true, y_score)
 print('Tencent, test AUC:', auc_test)
