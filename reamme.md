@@ -1,4 +1,4 @@
-### Four algorithms have been reimplementationed
+### Four network representation learning algorithms have been reimplementationed
 
 -  [Deepwalk](https://arxiv.org/pdf/1403.6652.pdf), assess on tencent weibo dataset, AUC: 0.7548
 - [LINE](http://www.arxiv.org/pdf/1503.03578.pdf), assess on tencent weibo dataset, AUC: 0.7608
